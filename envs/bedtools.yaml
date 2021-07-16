@@ -1,0 +1,10 @@
+name: bedtools
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - samtools=1.13
+  - bedtools=2.30
+  - gawk=5.1
+  - wget

@@ -1,0 +1,29 @@
+tmp_dir:
+  "/fscratch/fanslerm"
+
+peaks_bed:
+  "metadata/peaks.single.partial.no_chr.bed6"
+
+cleavage_radius: 20
+
+samples:
+  -
+    sample_id: neuron_1k_v2
+    url: "https://cf.10xgenomics.com/samples/cell-exp/3.0.0/neuron_1k_v2/neuron_1k_v2_possorted_genome_bam.bam"
+    tissue: neuron
+    version: v2
+  -
+    sample_id: neuron_1k_v3
+    url: "https://cf.10xgenomics.com/samples/cell-exp/3.0.0/neuron_1k_v3/neuron_1k_v3_possorted_genome_bam.bam"
+    tissue: neuron
+    version: v3
+  -
+    sample_id: heart_1k_v2
+    url: "https://cf.10xgenomics.com/samples/cell-exp/3.0.0/heart_1k_v2/heart_1k_v2_possorted_genome_bam.bam"
+    tissue: heart
+    version: v2
+  -
+    sample_id: heart_1k_v3
+    url: "https://cf.10xgenomics.com/samples/cell-exp/3.0.0/heart_1k_v3/heart_1k_v3_possorted_genome_bam.bam"
+    tissue: heart
+    version: v3
